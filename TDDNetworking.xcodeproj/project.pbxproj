@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D434C61DD5330B00F17247 /* TDDNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D434C51DD5330B00F17247 /* TDDNetworkingTests.swift */; };
+		52D434DF1DD5337200F17247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D434D71DD5337200F17247 /* AppDelegate.swift */; };
+		52D434E01DD5337200F17247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D434D81DD5337200F17247 /* Assets.xcassets */; };
+		52D434E21DD5337200F17247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D434DA1DD5337200F17247 /* LaunchScreen.storyboard */; };
+		52D434E31DD5337200F17247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D434DE1DD5337200F17247 /* ViewController.swift */; };
+		52D434E51DD5342E00F17247 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D434E41DD5342E00F17247 /* main.swift */; };
+		52D434EA1DD53D7500F17247 /* Nimble.framework in Carthage: Copy Files */ = {isa = PBXBuildFile; fileRef = 52D434E81DD53D7500F17247 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52D434EB1DD53D7500F17247 /* Quick.framework in Carthage: Copy Files */ = {isa = PBXBuildFile; fileRef = 52D434E91DD53D7500F17247 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52D434EC1DD53DB800F17247 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D434E81DD53D7500F17247 /* Nimble.framework */; };
+		52D434ED1DD53DB800F17247 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D434E91DD53D7500F17247 /* Quick.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52D434C21DD5330B00F17247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D434A51DD5330B00F17247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D434AC1DD5330B00F17247;
+			remoteInfo = TDDNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52D434E71DD53D4800F17247 /* Carthage: Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				52D434EA1DD53D7500F17247 /* Nimble.framework in Carthage: Copy Files */,
+				52D434EB1DD53D7500F17247 /* Quick.framework in Carthage: Copy Files */,
+			);
+			name = "Carthage: Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		52D434AD1DD5330B00F17247 /* TDDNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D434C11DD5330B00F17247 /* TDDNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D434C51DD5330B00F17247 /* TDDNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDNetworkingTests.swift; sourceTree = "<group>"; };
+		52D434D11DD5336500F17247 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D434D71DD5337200F17247 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52D434D81DD5337200F17247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D434D91DD5337200F17247 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D434DA1DD5337200F17247 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D434DE1DD5337200F17247 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52D434E41DD5342E00F17247 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		52D434E81DD53D7500F17247 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../../Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		52D434E91DD53D7500F17247 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = ../../Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D434AA1DD5330B00F17247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D434BE1DD5330B00F17247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D434EC1DD53DB800F17247 /* Nimble.framework in Frameworks */,
+				52D434ED1DD53DB800F17247 /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52D434A41DD5330B00F17247 = {
+			isa = PBXGroup;
+			children = (
+				52D434AF1DD5330B00F17247 /* TDDNetworking */,
+				52D434C41DD5330B00F17247 /* TDDNetworkingTests */,
+				52D434AE1DD5330B00F17247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52D434AE1DD5330B00F17247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D434AD1DD5330B00F17247 /* TDDNetworking.app */,
+				52D434C11DD5330B00F17247 /* TDDNetworkingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D434AF1DD5330B00F17247 /* TDDNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				52D434D61DD5337200F17247 /* Application */,
+				52D434DB1DD5337200F17247 /* Components */,
+				52D434DC1DD5337200F17247 /* Frameworks */,
+				52D434DD1DD5337200F17247 /* UI */,
+			);
+			path = TDDNetworking;
+			sourceTree = "<group>";
+		};
+		52D434C41DD5330B00F17247 /* TDDNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				52D434D01DD5336500F17247 /* Application */,
+				52D434D21DD5336500F17247 /* Components */,
+				52D434D31DD5336500F17247 /* Frameworks */,
+				52D434D41DD5336500F17247 /* UI */,
+				52D434C51DD5330B00F17247 /* TDDNetworkingTests.swift */,
+			);
+			path = TDDNetworkingTests;
+			sourceTree = "<group>";
+		};
+		52D434D01DD5336500F17247 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				52D434D11DD5336500F17247 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		52D434D21DD5336500F17247 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		52D434D31DD5336500F17247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D434E81DD53D7500F17247 /* Nimble.framework */,
+				52D434E91DD53D7500F17247 /* Quick.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		52D434D41DD5336500F17247 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		52D434D61DD5337200F17247 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				52D434D71DD5337200F17247 /* AppDelegate.swift */,
+				52D434D81DD5337200F17247 /* Assets.xcassets */,
+				52D434D91DD5337200F17247 /* Info.plist */,
+				52D434DA1DD5337200F17247 /* LaunchScreen.storyboard */,
+				52D434E41DD5342E00F17247 /* main.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		52D434DB1DD5337200F17247 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		52D434DC1DD5337200F17247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		52D434DD1DD5337200F17247 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				52D434DE1DD5337200F17247 /* ViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D434AC1DD5330B00F17247 /* TDDNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D434CA1DD5330B00F17247 /* Build configuration list for PBXNativeTarget "TDDNetworking" */;
+			buildPhases = (
+				52D434A91DD5330B00F17247 /* Sources */,
+				52D434AA1DD5330B00F17247 /* Frameworks */,
+				52D434AB1DD5330B00F17247 /* Resources */,
+				52D434E61DD53D2600F17247 /* Carthage: Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDNetworking;
+			productName = TDDNetworking;
+			productReference = 52D434AD1DD5330B00F17247 /* TDDNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52D434C01DD5330B00F17247 /* TDDNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D434CD1DD5330B00F17247 /* Build configuration list for PBXNativeTarget "TDDNetworkingTests" */;
+			buildPhases = (
+				52D434BD1DD5330B00F17247 /* Sources */,
+				52D434BE1DD5330B00F17247 /* Frameworks */,
+				52D434BF1DD5330B00F17247 /* Resources */,
+				52D434E71DD53D4800F17247 /* Carthage: Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D434C31DD5330B00F17247 /* PBXTargetDependency */,
+			);
+			name = TDDNetworkingTests;
+			productName = TDDNetworkingTests;
+			productReference = 52D434C11DD5330B00F17247 /* TDDNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D434A51DD5330B00F17247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Derek Lee";
+				TargetAttributes = {
+					52D434AC1DD5330B00F17247 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					52D434C01DD5330B00F17247 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52D434AC1DD5330B00F17247;
+					};
+				};
+			};
+			buildConfigurationList = 52D434A81DD5330B00F17247 /* Build configuration list for PBXProject "TDDNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D434A41DD5330B00F17247;
+			productRefGroup = 52D434AE1DD5330B00F17247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D434AC1DD5330B00F17247 /* TDDNetworking */,
+				52D434C01DD5330B00F17247 /* TDDNetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D434AB1DD5330B00F17247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D434E21DD5337200F17247 /* LaunchScreen.storyboard in Resources */,
+				52D434E01DD5337200F17247 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D434BF1DD5330B00F17247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52D434E61DD53D2600F17247 /* Carthage: Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Carthage: Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D434A91DD5330B00F17247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D434E31DD5337200F17247 /* ViewController.swift in Sources */,
+				52D434DF1DD5337200F17247 /* AppDelegate.swift in Sources */,
+				52D434E51DD5342E00F17247 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D434BD1DD5330B00F17247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D434C61DD5330B00F17247 /* TDDNetworkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52D434C31DD5330B00F17247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D434AC1DD5330B00F17247 /* TDDNetworking */;
+			targetProxy = 52D434C21DD5330B00F17247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52D434C81DD5330B00F17247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52D434C91DD5330B00F17247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D434CB1DD5330B00F17247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/TDDNetworking/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derekleeapp.TDDNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		52D434CC1DD5330B00F17247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/TDDNetworking/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derekleeapp.TDDNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		52D434CE1DD5330B00F17247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = TDDNetworkingTests/Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derekleeapp.TDDNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDNetworking.app/TDDNetworking";
+			};
+			name = Debug;
+		};
+		52D434CF1DD5330B00F17247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = TDDNetworkingTests/Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derekleeapp.TDDNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDNetworking.app/TDDNetworking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D434A81DD5330B00F17247 /* Build configuration list for PBXProject "TDDNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D434C81DD5330B00F17247 /* Debug */,
+				52D434C91DD5330B00F17247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D434CA1DD5330B00F17247 /* Build configuration list for PBXNativeTarget "TDDNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D434CB1DD5330B00F17247 /* Debug */,
+				52D434CC1DD5330B00F17247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52D434CD1DD5330B00F17247 /* Build configuration list for PBXNativeTarget "TDDNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D434CE1DD5330B00F17247 /* Debug */,
+				52D434CF1DD5330B00F17247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D434A51DD5330B00F17247 /* Project object */;
+}
